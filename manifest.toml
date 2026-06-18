@@ -20,7 +20,7 @@ code = "https://github.com/filegator/filegator"
 fund = "https://www.patreon.com/alcalbg"
 
 [integration]
-yunohost = ">= 12.1.38"
+yunohost = ">= 12.1.39"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -70,4 +70,4 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "php8.4-zip, php8.4-mbstring, php8.4-dom, php8.4-xml"
+    packages = "php8.5-zip, php8.5-mbstring, php8.5-dom, php8.5-xml"
